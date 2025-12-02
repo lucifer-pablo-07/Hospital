@@ -76,6 +76,9 @@ nav{
     font-family: "Inter", sans-serif;
 
 }
+.nav2 a:hover{
+    color: rgba(0, 93, 156, 1);   
+}
 
 /* <!----------------------------- Container ------------------------------------> */
 
@@ -194,7 +197,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px 20px;
+    gap: 40px 20px;
 }
 .treatbox{
     width: 200px;
@@ -800,7 +803,7 @@ footer{
     font-size: 15px;
 }
 .i li{
-    font-size: 10px;
+    font-size: 8px;
 }
 .i ul{
     padding: 0px;
@@ -900,6 +903,7 @@ footer{
     font-size: 16px;
 }
 .Doctorsimg {
+    gap: 40px 40px;
     padding: 20px;
 }
         /* <!----------------------- FOOTER ----------------------------> */

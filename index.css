@@ -1,0 +1,1365 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+nav{
+    width: 100%;
+    min-height: 13vh;
+    padding: 10px;
+    /* border: 1px solid black; */
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+.navparent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    min-width: 35px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top:15px;
+    font-size: 25px;
+    display: none;
+}
+.nav{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav2{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2 a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+}
+.nav2 span:hover{
+    border-bottom: 2px dotted rgba(0, 93, 156, 1);
+    color: rgba(0, 93, 156, 1);
+}
+.nav2 button{
+    width: 110px;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0, 93, 156, 1);
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Inter", sans-serif;
+
+}
+
+/* <!----------------------------- Container ------------------------------------> */
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/66ebd63adbb482f3399a0e7e98ee0920d29e90e9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.innercontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #007acca9 20%, #012d4a 100%,#002944 100%);
+
+    /* background: linear-gradient(180deg, #007acccb 0%, #003d66c0 100%); */
+}
+.containchild{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.containchild h1{
+    font-size: 70px;
+    width: 280px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.innerchild{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.i i{
+    width: 40px;
+    height: 40px;
+    background: rgba(46, 125, 50, 1);
+    border-radius: 50%;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.i li{
+    list-style:disc;
+}
+.innerchild button{
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 17px;
+    border:  none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Inter", sans-serif;
+}
+.containchild2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innercont{
+    width: 60%;
+    height: 70%;
+    /* border: 1px solid white; */
+}
+.innercont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+        /* <!---------------------------------- our mission ---------------------------> */
+
+
+.mission{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+}
+.welcome{
+    width: 100%;
+    min-height: 100vh;
+    /* border: 1px solid black; */
+}
+.welcomeinner1{
+    width: 100%;
+    height: 19vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.welcomechild{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 10px 0px;
+}
+.welcomechild h1{
+    width: 80%;
+    font-size: 40px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.docchild{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.docchildimg{
+    width: 65%;
+    height: 65%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.childimg{
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid black; */
+    border-radius: 35px;
+    border-bottom-left-radius: 0px;
+    background: rgba(0, 93, 156, 1);
+    overflow: hidden;
+}
+.childimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.border{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+.border1{
+    border-left: 15px solid rgba(81, 146, 84, 0.865);
+    border-bottom: 15px solid rgba(81, 146, 84, 0.865);
+    left: 0px;
+    bottom: 0px;
+}
+.border2{
+    top: 0px;
+    right: 0px;
+    border-right: 15px solid rgba(81, 146, 84, 0.865);
+    border-top: 15px solid rgba(81, 146, 84, 0.865);
+    border-top-right-radius:35px;
+}
+
+.welcomeinner2{
+    width: 50%;
+    height: 81vh;
+}
+.welcomeinner2 p{
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Inter", sans-serif;
+}
+.welcomeinner2 h2{
+    padding: 10px 0px;
+}
+.welcomeinner2 ul{
+    padding: 0px 0px 0px 10px;
+}
+.welcomeinner2 li{
+    color: black;
+    list-style:inside;
+    padding: 5px 0px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+        /* <!----------------------------- Treatments We Offer ----------------------------> */
+
+
+.treatment{
+    width: 100%;
+    min-height: 80vh;
+    /* border: 1px solid black; */
+}
+.treatment h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.alltreat{
+    width: 80%;
+    min-height: 50%;
+    padding: 30px 0px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+.treatbox{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    background: rgba(0, 93, 156, 1);
+    transition: all 1s;
+    box-shadow: 1px 10px 20px black;
+    font-family: "Inter", sans-serif;
+}
+.treatbox img{
+    width: 100px;
+    height: 120px;
+}
+.treatbox:hover{
+    scale: 1.05;
+    background: linear-gradient(180deg, #005D9C 50%, #FFFFFF 137.27%);
+}
+.treatbutton{
+    width: 100%;
+    height: 10%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.treatbutton button{
+    width: 140px;
+    padding: 8px;
+    font-size: 17px;
+    background: rgba(0, 93, 156, 1);
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border: none;
+    color: white;
+    transition: all 1s;
+    font-family: "Inter", sans-serif;
+}
+.treatbutton button:hover{
+    scale: 1.03;
+    box-shadow: 2px 5px 10px black;
+}
+
+
+        /* <!-------------------------- Services We Offer -------------------------------> */
+
+
+.services{
+    width: 100%;
+    min-height: 70vh;
+    padding-top: 30px;
+    /* border: 1px solid  black; */
+}
+.services h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+
+.servicechild{
+    width: 80%;
+    min-height: 50%;
+    padding: 30px 0px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+.innerservice{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 93, 156, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    transition: all 1s;
+    padding: 15px;
+}
+.innerservice:hover{
+    scale: 1.05;
+    box-shadow: 1px 10px 20px black;
+}
+.serimg{
+    width: 90%;
+    height: 65%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgba(0, 93, 156, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serimg img{
+    width: 60%;
+    height: 80%;
+}
+.innerservice4 h3{
+    width: 80%;
+}
+.innerservice h3{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+        /* <!----------------------------- Departments ---------------------------------> */
+
+
+.department{
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid black; */
+}
+.department  h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.departslid{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sliding{
+    min-width: 250%;
+    height: 20vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    animation: sliding 10s infinite linear;
+}
+@keyframes sliding {
+    0%{transform: translateX(0px);}
+    100%{transform: translateX(-20%);}
+}
+
+.deportbox{
+    min-width: 130px;
+    padding: 8px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    color: white;
+    background: rgba(0, 93, 156, 1);
+}
+.deportbox h3{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+
+        /* <!--------------------------- Our Specialists Doctors ------------------------------> */
+
+.Doctors{
+    width: 100%;
+    min-height: 50vh;
+    /* border: 1px solid black; */
+}
+.Doctors  h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.Doctorsimg{
+    width: 100%;
+    min-height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px 20px;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  transition: all 1s;
+    font-family: "Inter", sans-serif;
+}
+.box:hover{
+    filter: drop-shadow(10px 10px 10px black);
+    scale: 1.04;
+}
+.box:hover .inbox1{
+    background-color: rgb(212, 211, 211);
+}
+.inbox {
+  width: 250px;
+  height: 250px;
+  background-color: deepskyblue;
+  /* border: 2px black; */
+  clip-path: path("M 25,0 L 225,0 A 25,25,0,0,1 250,25 L 250,160 A 28,28,0,0,1 220,190 A 28,28,0,0,0 190,220 A 28,28,0,0,1 160,250 A 25,25,0,0,1 25,250 A 23,23,0,0,1 0,230 A 25,25,0,0,1 0,25 A 25,25,0,0,1 25,0 Z");
+}
+.inbox1 {
+  width: 245px;
+  height: 245px;
+  background-color: white;
+  padding:10px 5px 8px 8px;
+  transition: all 1s;
+  clip-path: path("M 30,5 L 220,5 A 25,25,0,0,1 245,25 L 245,155 A 28,28,0,0,1 215,185 A 30,30,0,0,0 185,215 A 28,28,0,0,1 155,245 A 25,25,0,0,1 20,245 A 23,23,0,0,1 5,220 L 5,20 A 23,23,0,0,1 30,5 ");
+}
+.a{
+  width: 100%;
+  height: 65%;
+  border-radius: 30px;
+}
+.a img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.a1{
+  width: 70%;
+  height: 35%;
+  padding-top: 8px;
+  padding-left: 5px;
+}
+.a1 button{
+  min-width: 100px;
+  border: 1px solid deepskyblue;
+  border-radius: 30px;
+  color: deepskyblue;
+  background-color: white;
+  padding: 5px;
+}
+.a1 h2{
+  font-size: 20PX;
+  border-radius: 30px;
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(24, 65, 188);
+  color: white;
+  margin-top: 10px;
+  transition: all 5s;
+}
+.box:hover .first{
+    display: none;
+}
+.sec{
+    display: none;
+}
+.box:hover .sec{
+    display: block;
+}
+.a1 button i{
+  font-size: 10px;
+  margin-right: 5px;
+}
+.a2{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.box:hover .a2 i{
+    background-color: rgb(212, 211, 211);
+}
+.a2 i{
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding-top: 8px;
+  color: deepskyblue;
+  border: 2px solid deepskyblue;
+  transition: all 1s;
+}
+.aa button{
+  color: gray;
+}
+
+
+
+/* <!-------------------------- Bed Availability ------------------------------------> */
+
+
+
+
+.bed{
+    width: 100%;
+    min-height: 60vh;
+    padding:20px;
+    /* border: 1px solid black; */
+}
+.bed h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.Available{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+}
+
+
+/* <!-------------------------- General OPD Hours ------------------------------------> */
+
+.genaral{
+    width: 100%;
+    min-height: 44vh;
+    padding: 10px;
+}
+.genaral h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.opd{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.hours{
+    width: 300px;
+    height: 150px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 20px 45px;
+}
+.hours h2{
+    font-size: 20px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.hours i{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.hours2{
+    padding: 20px 25px;
+}
+.hours3{
+    padding: 15px 20px;
+}
+
+
+        /* <!----------------------- Patient Reviews ----------------> */
+
+
+.patient{
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid black; */
+}
+.patient h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+.reviwe{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+.reviweslid{
+    min-width: 250%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    animation: revslide 8s infinite linear;
+    gap: 30px;
+}
+@keyframes revslide {
+    100%{transform: translateX(-400px);}
+}
+.clipparent{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.starbox{
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    border: 5px solid #005D9C;
+    border-radius: 15px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.starbox img{
+    width: 90%;
+    height: 20px;
+}
+.reviwebox{
+    width: 250px;
+    height: 250px;
+    clip-path: path("M 25,0 L 225,0 A 28,28,0,0,1 250,25 L 250,160 A 28,28,0,0,1 220,190 L 125,190 A 28,28,0,0,0 100,215 L 100,225 A 25,25,0,0,1 75 250 L 25,250 A 23,23,0,0,1 0,230 A 25,25,0,0,1 0,25 A 25,25,0,0,1 25,0 Z");
+    background-color: #005D9C;
+}
+.reviweboxchild{
+    width: 245px;
+    height: 245px;
+    clip-path: path("M 25,5 L 220,5 A 28,28,0,0,1 245,20 L 245,155 A 28,28,0,0,1 215,185 L 120,185 A 28,28,0,0,0 95,210 L 95,220 A 25,25,0,0,1 70,245 L 20,245 A 23,23,0,0,1 5,225 L 5,30 A 25,25,0,0,1 30,5 Z");
+    background-color: white;
+    padding: 10px 10px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2px;
+}
+.reviweboxchild img{
+    width: 230px;
+    height: 120px;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+.reviweboxchild p{
+    font-size: 12px;
+    line-height: 17px;
+    font-family: "Inter", sans-serif;
+}
+
+/* <------------------------------------ Footer -------------------------------------------> */
+
+footer{
+    width: 100%;
+    min-height: 60vh;
+    padding: 30px;
+    background: rgba(0, 93, 156, 1);
+}
+.innerfooter1{
+    width: 100%;
+    min-height: 46vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foot{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.foot1,.foot3{
+    width: 350px;
+}
+.logo1{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.logo1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: white;
+}
+.foot1 p{
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px;
+    font-family: "Inter", sans-serif;
+}
+.foot h3{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+.ul{
+    padding: 0px;
+}
+li{
+    font-size: 15px;
+    padding: 10px 0px;
+    list-style: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+li i{
+    padding: 0px 10px 0px 0px;
+}
+.innerfooter2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerfooter2 p{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+/* <--------------------------------- respons for 900px to 1150px -----------------------------------> */
+
+@media only screen and (min-width:900px) and (max-width:1150px) {
+.nav2 a{
+    font-size: 17px;
+}
+.nav2 button {
+    width: 95px;
+    font-size: 15px;
+}
+
+/* <!----------------------------- Respons Container ------------------------------------> */
+.containchild h1{
+    font-size: 57px;
+}
+.containchild{
+    width: 60%;
+    padding: 30px;
+}
+.containchild2{
+    width: 40%;
+}
+.innercont {
+    width: 100%;
+}
+.i ul{
+    padding: 0px;
+}
+.innerchild button {
+    width: 190px;
+    font-size: 15px;
+}
+
+        /* <!----------------------------------respons our mission ---------------------------> */
+
+
+.welcomechild{
+    padding: 0px;
+}
+.docchildimg {
+    width: 80%;
+}
+.welcomechild h1 {
+    width: 100%;
+    font-size: 35px;
+}
+.welcomeinner2 p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+        /* <!--------------------------respons Services We Offer -------------------------------> */
+
+.deportbox h3 {
+    font-size: 13px;
+}
+
+
+/* <!-------------------------- General OPD Hours ------------------------------------> */
+
+.opd{
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.hours{
+    width: 180px;
+    padding: 15px 0px;
+}
+.hours i{
+    font-size: 35px;
+}
+.hours h2{
+    font-size: 16px;
+}
+
+
+        /* <!----------------------- FOOTER ----------------------------> */
+
+footer{
+    padding: 20px 15px;
+}
+.foot{
+    padding: 0px;
+}
+.ul li{
+    font-size: 15px;
+    padding: 6px 0px;
+}
+
+}
+
+
+/* <-------------------------------- Respons for 600px to 900px -------------------------------------> */
+
+@media only screen and (min-width:600px) and (max-width:900px) {
+    
+    
+    .navparent{
+        position: relative;
+    }
+    .nav2{
+        width: 250px;
+        min-height: 450px;
+        position: absolute;
+        flex-direction: column;
+        top: 70px;
+        right: -10px;
+        transform: translateX(100%);
+        background-color: rgba(20, 20, 20, 0.712);
+        transition: all 1s;
+    }
+    .name{
+        display: block;
+    }
+    .nav2 a{
+        color: white;
+    }
+    
+
+/* <!----------------------------- Respons Container ------------------------------------> */
+
+.innercontainer{
+    justify-content: start;
+}
+.containchild{
+    width: 500px;
+    padding: 20px;
+}
+.containchild h1 {
+    font-size: 55px;
+}
+.containchild2{
+    width: 50%;
+    justify-content: start;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    /* padding: 0px; */
+}
+.innercont {
+    width: 100%;
+    height: 80%;
+}
+.innercont img {
+    width: 280px;
+    height: 300px;
+}
+.i li{
+    font-size: 13px;
+}
+.i ul{
+    padding: 0px;
+}
+.innerchild{
+    padding: 10px;
+    justify-content: space-between;
+}
+.innerchild button {
+    width: 190px;
+    font-size: 15px;
+}
+
+
+ h3 {
+    font-size: 15px;
+}
+.a1 h2{
+    font-size: 15px;
+}
+
+
+        /* <!----------------------------------respons our mission ---------------------------> */
+
+.welcomeinner1{
+    height: 85vh;
+    flex-direction: column;
+}
+.welcomechild{
+    width: 100%;
+    padding: 0px;
+}
+.docchild {
+    height:64vh;
+}
+.docchildimg {
+    width: 340px;
+    height: 350px;
+}
+.welcomechild h1 {
+    width: 80%;
+    font-size: 35px;
+}
+.welcomeinner2{
+    width: 100%;
+    padding: 20px 0px;
+}
+.welcomeinner2 p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+        /* <!----------------------------- Departments ---------------------------------> */
+
+.sliding{
+    min-width: 420%;
+}
+
+.departslid{
+    gap: 20px;
+}
+.departbox {
+    min-width: 80px;
+}
+.deportbox h3 {
+    font-size: 13px;
+}
+
+/* <!-------------------------- General OPD Hours ------------------------------------> */
+
+.opd{
+    justify-content: space-between;
+    gap: 20px;
+}
+.hours{
+    width: 180px;
+    padding: 15px 0px;
+}
+.hours i{
+    font-size: 30px;
+}
+.hours h2{
+    font-size: 16px;
+}
+
+        /* <!----------------------- FOOTER ----------------------------> */
+
+footer{
+    padding: 20px 15px;
+}
+.foot{
+    padding: 0px;
+}
+.ul li{
+    font-size: 15px;
+    padding: 6px 0px;
+}
+
+/* <--------------------------- all h1 -----------------------------------------------> */
+.treatment h1,.department h1,.services h1,.Doctors h1,.bed h1,.genaral h1,.patient h1 {
+    font-size: 30px;
+}
+}
+
+@media only screen and (min-width:800px) and(max-width:900px) {
+    .sliding{
+        width: 300%;
+    }
+}
+
+
+/* <-------------------------------- response for 300px to 600px----------------------------------------------> */
+
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .overall{
+        padding-top: 70px;
+    }
+    nav{
+        padding: 10px;
+    }
+    .navparent{
+        position: relative;
+    }
+    .navparent i{
+        font-size: 25px;
+    }
+    .nav2{
+        width: 200px;
+        min-height: 445px;
+        position: absolute;
+        flex-direction: column;
+        top: 60px;
+        right: -30px;
+        transform: translateX(100%);
+        background-color: rgba(0, 0, 0, 0.705);
+        transition: all 1s;
+    }
+    .name{
+        display: block;
+    }
+    .name i{
+        top: 30px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .navparent i{
+        display: block;
+    }
+    .nav2 a{
+        font-size: 20px;
+        color: white;
+    }
+
+    
+
+/* <!----------------------------- Respons Container ------------------------------------> */
+
+.innercontainer{
+    justify-content: start;
+}
+.containchild{
+    width: 100%;
+    padding: 10px;
+    z-index: 2;
+}
+.containchild h1 {
+    width: 20%;
+    font-size: 40px;
+}
+.containchild2{
+    width: 100%;
+    justify-content: start;
+    align-items: end;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    padding: 0px;
+    z-index: 1;
+}
+.innercont {
+    width: 70%;
+    height: 80%;
+}
+.innercont img {
+    width: 210px;
+    height: 230px;
+}
+.i i{
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+}
+.i li{
+    font-size: 10px;
+}
+.i ul{
+    padding: 0px;
+}
+.innerchild{
+    padding-left: 10px;
+    height: 100px;
+    justify-content: space-between;
+}
+.innerchild button {
+    width: 130px;
+    font-size: 13px;
+}
+
+/* service */
+
+ h3 {
+    font-size: 15px;
+}
+.a1 h2{
+    font-size: 15px;
+}
+
+        /* <!----------------------------------respons our mission ---------------------------> */
+.mission{
+    padding: 20px;
+}
+.welcomeinner1{
+    height: 85vh;
+    flex-direction: column;
+}
+.welcomechild{
+    width: 100%;
+    padding: 0px;
+}
+.docchild {
+    height:64vh;
+}
+.docchildimg {
+    width: 340px;
+    height: 330px;
+}
+.welcomechild h1 {
+    width: 90%;
+    font-size: 25px;
+}
+.welcomeinner2{
+    width: 100%;
+    /* height: 70vh; */
+    padding: 20px 0px;
+}
+.welcomeinner2 p {
+    font-size: 13px;
+    line-height: 25px;
+}
+.welcomeinner2 li {
+    font-size: 12px;
+}
+.welcomeinner2 h2{
+    font-size: 20px;
+}
+
+.treatbox img {
+    width: 70px;
+    height: 90px;
+}
+.treatbox {
+    width: 150px;
+    height: 190px;
+}
+.treatbutton button {
+    width: 125px;
+    font-size: 14px;
+}
+
+
+.Doctorsimg {
+    padding: 20px;
+}
+
+
+        /* <!----------------------------- Departments ---------------------------------> */
+
+.sliding{
+    min-width: 755%;
+}
+
+.departslid{
+    gap: 20px;
+}
+.departbox {
+    min-width: 80px;
+}
+.deportbox h3 {
+    font-size: 13px;
+}
+
+/* <!-------------------------- General OPD Hours ------------------------------------> */
+
+.opd{
+    justify-content: center;
+    gap: 20px;
+}
+.hours{
+    width: 180px;
+    height: 120px;
+    padding: 15px 0px;
+}
+.hours i{
+    font-size: 30px;
+}
+.hours h2{
+    font-size: 16px;
+}
+
+.reviweslid {
+    gap: 60px;
+}
+
+        /* <!----------------------- FOOTER ----------------------------> */
+
+footer{
+    padding: 20px 15px;
+}
+.foot{
+    width: 100%;
+    height: 180px;
+    padding: 0px;
+}
+.ul li{
+    font-size: 13px;
+    padding: 6px 0px;
+}
+.innerfooter2 p{
+    font-size: 9px;
+}
+
+/* <--------------------------- all h1 -----------------------------------------------> */
+.treatment h1,.department h1,.services h1,.Doctors h1,.bed h1,.genaral h1,.patient h1 {
+    font-size: 25px;
+}
+}
+
+@media only screen and (min-width:400px) and (max-width:600px) {
+    .innerchild {
+        justify-content: space-evenly;
+    }
+    .i li{
+        font-size: 12px;
+    }
+    .innercont{
+        display: flex;
+        justify-content: center;
+    }
+    .innercont img {
+        width: 250px;
+        height: 250px;
+    }
+    .innerchild{
+        height: 130px;
+    }
+    .innerchild button {
+        width: 156px;
+        font-size: 14px;
+    }
+    .sliding {
+        min-width: 550%;
+    }
+}
+
+@media only screen and (min-width:800px) and(max-width:900px) {
+    .sliding{
+        width: 300%;
+    }
+}

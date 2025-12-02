@@ -1,0 +1,501 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+nav{
+    width: 100%;
+    min-height: 13vh;
+    padding: 10px;
+    /* border: 1px solid black; */
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
+}
+.navparent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    min-width: 35px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top:15px;
+    font-size: 25px;
+    display: none;
+}
+.nav{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav2{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2 a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+.nav2 button{
+    width: 110px;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0, 93, 156, 1);
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Inter", sans-serif;
+
+}
+
+/* <!--------------------------------- Container  -----------------------------------> */
+
+.container{
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: linear-gradient(180deg, #007ACC 0%, #005e9c 100%);
+    overflow: hidden;
+}
+.container h1{
+    width: 60%;
+    font-size: 65px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.img{
+    width: 40%;
+    height: 100%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* <!------------------------------------- Appoinment and contact ------------------------------> */
+
+.appointment{
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    border: 1px solid black;
+}
+.innerappointment{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    /* border: 1px solid black; */
+}
+form{
+    width: 48%;
+    min-height: 100%;
+    /* border: 1px solid black; */
+}
+form,.contact h2{
+    padding: 10px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+
+}
+.innerform{
+    width: 100%;
+    min-height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.input{
+    width: 50%;
+    height: 100%;
+    padding: 10px 0px;
+}
+.input3{
+    width: 100%;
+}
+label{
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+form button{
+    width: 110px;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0, 93, 156, 1);
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Inter", sans-serif;
+}
+.contact{
+    width: 40%;
+    min-height: 100%;
+    /* border: 1px solid black; */
+}
+.info{
+    width: 100%;
+    height: 80px;
+    padding: 20px 0px;
+    color: rgba(0, 93, 156, 1);
+    font-family: "Inter", sans-serif;
+    /* border: 1px solid black; */
+}
+.info1{
+    width: 100%;
+    height: 300px;
+}
+.info1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+
+        /* <!----------------------- FOOTER ----------------------------> */
+
+
+footer{
+    width: 100%;
+    min-height: 60vh;
+    padding: 30px;
+    background: rgba(0, 93, 156, 1);
+}
+.innerfooter1{
+    width: 100%;
+    min-height: 46vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foot{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.foot1,.foot3{
+    width: 350px;
+}
+.logo1{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    background-color: white;
+}
+.logo1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.foot1 p{
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px;
+    font-family: "Inter", sans-serif;
+}
+.foot h3{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+.ul{
+    padding: 0px;
+}
+li{
+    padding: 10px 0px;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+li i{
+    padding: 0px 10px 0px 0px;
+}
+.innerfooter2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerfooter2 p{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+/* <--------------------------------- respons for 900px to 1150px -----------------------------------> */
+
+@media only screen and (min-width:900px) and (max-width:1150px) {
+.nav2 a{
+    font-size: 17px;
+}
+.nav2 button {
+    width: 95px;
+    font-size: 15px;
+}
+    .container h1{
+        font-size: 53px;
+    }
+
+        /* <!----------------------- FOOTER ----------------------------> */
+
+footer{
+    padding: 20px 15px;
+}
+.foot{
+    padding: 0px;
+}
+.ul li{
+    font-size: 15px;
+    padding: 6px 0px;
+}
+
+}
+
+
+/* <-------------------------------- Respons for 600px to 900px -------------------------------------> */
+
+@media only screen and (min-width:600px) and (max-width:900px) {
+    
+    
+    .navparent{
+        position: relative;
+    }
+    .nav2{
+        width: 300px;
+        min-height: 450px;
+        position: absolute;
+        flex-direction: column;
+        top: 70px;
+        right: -10px;
+        transform: translateX(100%);
+        background-color: rgba(20, 20, 20, 0.712);
+        transition: all 1s;
+    }
+    .name{
+        display: block;
+    }
+    .nav2 a{
+        color: white;
+    }
+    .container h1{
+        font-size: 40px;
+    }
+    .innerappointment{
+        flex-direction: column;
+    }
+    form,.contact{
+        width: 100%;
+        
+    }
+    .info1{
+        width: 400px;
+    }
+    
+
+        /* <!----------------------- FOOTER ----------------------------> */
+
+footer{
+    padding: 20px 15px;
+}
+.foot{
+    padding: 0px;
+}
+.ul li{
+    font-size: 15px;
+    padding: 6px 0px;
+}
+}
+
+/* <-------------------------------- response for 300px to 600px----------------------------------------------> */
+
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .overall{
+        padding-top: 70px;
+    }
+    nav{
+        padding: 10px;
+    }
+    .navparent{
+        position: relative;
+    }
+    .navparent i{
+        font-size: 25px;
+    }
+    .nav2{
+        width: 250px;
+        min-height: 445px;
+        position: absolute;
+        flex-direction: column;
+        top: 60px;
+        right: -30px;
+        transform: translateX(100%);
+        background-color: rgba(0, 0, 0, 0.705);
+        transition: all 1s;
+    }
+    .name{
+        display: block;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .nav2 a{
+        color: white;
+    }
+    .img{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: -10px;
+        bottom: 0px;
+    }
+    .container{
+        flex-direction: column;
+        position: relative;
+        align-items: start;
+        justify-content: start;
+    }
+    .container h1{
+        width: 50%;
+        font-size: 27px;
+    }
+    .innerappointment{
+        flex-direction: column;
+    }
+
+    .appointment{
+        padding: 10px;
+    }
+    label{
+        font-size: 11px;
+    }
+    form,.contact{
+        width: 100%;
+        
+    }
+    .info1{
+        width: 100%;
+    }
+    .info h3{
+        font-size: 18px;
+    }
+    .info p{
+        font-size: 14px;
+    }
+
+    
+
+
+
+
+        /* <!----------------------- FOOTER ----------------------------> */
+
+footer{
+    padding: 20px 15px;
+}
+.foot{
+    width: 100%;
+    height: 180px;
+    padding: 0px;
+}
+.ul li{
+    font-size: 13px;
+    padding: 6px 0px;
+}
+.innerfooter2 p{
+    font-size: 9px;
+}
+
+/* <--------------------------- all h1 -----------------------------------------------> */
+.treatment h1,.department h1,.services h1,.Doctors h1,.bed h1,.genaral h1,.patient h1 {
+    font-size: 27px;
+}
+}
+
+@media only screen and (min-width:400px) and (max-width:600px) {
+    
+    .container h1 {
+        width: 50%;
+        font-size: 34px;
+    }
+    
+    .innerchild {
+        justify-content: space-evenly;
+    }
+    .i li{
+        font-size: 12px;
+    }
+    .innercont{
+        display: flex;
+        justify-content: center;
+    }
+    .innercont img {
+        width: 250px;
+        height: 250px;
+    }
+    .innerchild{
+        height: 130px;
+    }
+    .innerchild button {
+        width: 156px;
+        font-size: 14px;
+    }
+    .sliding {
+        min-width: 550%;
+    }
+}

@@ -5,7 +5,7 @@
 }
 .overall{
     width: 100%;
-    min-height: 100vh;
+    min-height: 500px;
     padding-top: 75px;
 }
 nav{
@@ -89,7 +89,7 @@ nav{
 
 .container{
     width: 100%;
-    height: 100vh;
+    min-height: 400px;
     background-image: url("./images/1e036ea2c1869d84c7deaa73893a35364ab723fa.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,7 +143,6 @@ nav{
     padding-top: 10px;
     font-size: 20px;
     color: white;
-    font-family: "Inter", sans-serif;
 }
 .i li{
     list-style:disc;
@@ -565,6 +564,10 @@ footer{
     .navparent{
         position: relative;
     }
+    nav{
+        min-height: 20px;
+        padding: 5px;
+    }
     .nav2{
         width: 300px;
         min-height: 450px;
@@ -737,7 +740,8 @@ footer{
         padding-top: 70px;
     }
     nav{
-        padding: 10px;
+        min-height: 20px;
+        padding: 5px;
     }
     .navparent{
         position: relative;

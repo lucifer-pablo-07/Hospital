@@ -410,6 +410,7 @@ footer{
         bottom: 0px;
     }
     .container{
+        height: 250px;
         flex-direction: column;
         position: relative;
         align-items: start;

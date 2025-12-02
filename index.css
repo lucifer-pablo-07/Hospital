@@ -65,7 +65,6 @@ nav{
     color: black;
 }
 .nav2 span:hover{
-
     border-bottom: 2px dotted rgba(0, 93, 156, 1);
     color: rgba(0, 93, 156, 1);
 }

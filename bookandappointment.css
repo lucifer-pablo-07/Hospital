@@ -10,9 +10,8 @@
 }
 nav{
     width: 100%;
-    min-height: 13vh;
+    min-height: 20px;
     padding: 10px;
-    /* border: 1px solid black; */
     position: fixed;
     top: 0px;
     z-index: 999;
@@ -76,7 +75,10 @@ nav{
     font-family: "Inter", sans-serif;
 
 }
-
+.nav2 span:hover{
+    border-bottom: 2px dotted rgba(0, 93, 156, 1);
+    color: rgba(0, 93, 156, 1);
+}
 .nav2 a:hover{
     color: rgba(0, 93, 156, 1);   
 }
